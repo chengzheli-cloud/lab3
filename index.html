@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Pasta Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="story-container">
+        <header>
+            <h1 id="sequence-title">Sequence A: The Culinary Journey</h1>
+            <button id="toggle-btn">Switch Story Narrative</button>
+        </header>
+
+        <section class="panels-wrapper">
+            <div class="panel">
+                <span class="act-label">Beginning</span>
+                <img id="img-1" src="images/s1.jpg" alt="Dry raw pasta">
+            </div>
+            <div class="panel">
+                <span class="act-label">Middle</span>
+                <img id="img-2" src="images/s2.jpg" alt="Pasta boiling in a pot">
+            </div>
+            <div class="panel">
+                <span class="act-label">End</span>
+                <img id="img-3" src="images/s3.jpg" alt="Plated cooked pasta with sauce">
+            </div>
+        </section>
+
+        <footer>
+            <p id="story-caption">Loading narrative...</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
